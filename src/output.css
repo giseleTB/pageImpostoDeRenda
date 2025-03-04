@@ -378,9 +378,6 @@
   .mb-8 {
     margin-bottom: calc(var(--spacing) * 8);
   }
-  .mb-10 {
-    margin-bottom: calc(var(--spacing) * 10);
-  }
   .mb-16 {
     margin-bottom: calc(var(--spacing) * 16);
   }
@@ -486,20 +483,11 @@
   .min-h-screen {
     min-height: 100vh;
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
-  .w-5 {
-    width: calc(var(--spacing) * 5);
-  }
   .w-5\/6 {
     width: calc(5/6 * 100%);
-  }
-  .w-full {
-    width: 100%;
   }
   .w-screen {
     width: 100vw;
@@ -1298,9 +1286,6 @@
   .p-5 {
     padding: calc(var(--spacing) * 5);
   }
-  .px-3 {
-    padding-inline: calc(var(--spacing) * 3);
-  }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
@@ -1309,9 +1294,6 @@
   }
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
-  }
-  .py-1 {
-    padding-block: calc(var(--spacing) * 1);
   }
   .py-1\.5 {
     padding-block: calc(var(--spacing) * 1.5);
@@ -1990,11 +1972,6 @@
       width: calc(1/2 * 100%);
     }
   }
-  .md\:w-3\/6 {
-    @media (width >= 48rem) {
-      width: calc(3/6 * 100%);
-    }
-  }
   .md\:flex-row {
     @media (width >= 48rem) {
       flex-direction: row;
@@ -2018,16 +1995,6 @@
   .lg\:inline-block {
     @media (width >= 64rem) {
       display: inline-block;
-    }
-  }
-  .lg\:w-2\/3 {
-    @media (width >= 64rem) {
-      width: calc(2/3 * 100%);
-    }
-  }
-  .lg\:w-2\/6 {
-    @media (width >= 64rem) {
-      width: calc(2/6 * 100%);
     }
   }
   .lg\:w-full {
