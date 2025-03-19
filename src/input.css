@@ -1,10 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-    --color-profissional-blue-100: #648FCA;
-    --color-profissional-blue-200: #00357D;
-    --color-profissional-blue-300: #002C68;
-    --color-profissional-blue-400: #002353;
+    --color-profissional-blue-50: #4888D7;
+    --color-profissional-blue-100: #256ABE;
+    --color-profissional-blue-200: #003A81;
+    --color-profissional-blue-300: #00357D;
+    --color-profissional-blue-400: #002C68;
+    --color-profissional-blue-500: #002353;
     --color-cinza: #333;
 }
+
 
