@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@tailwind utilities;
+
 
 @theme {
     --color-profissional-blue-50: #4888D7;
@@ -11,3 +13,9 @@
 }
 
 
+body {
+    background-image: url("");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
