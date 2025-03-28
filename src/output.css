@@ -2468,6 +2468,11 @@
       padding-inline: calc(var(--spacing) * 32);
     }
   }
+  .\@7xl\:py-32 {
+    @container (width >= 80rem) {
+      padding-block: calc(var(--spacing) * 32);
+    }
+  }
 }
 body {
   background-image: url("");
