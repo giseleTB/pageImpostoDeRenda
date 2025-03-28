@@ -376,6 +376,9 @@
     @media (width >= 96rem) {
       max-width: 96rem;
     }
+    @media (width >= 112rem) {
+      max-width: 112rem;
+    }
   }
   .container\! {
     width: 100% !important;
@@ -393,6 +396,9 @@
     }
     @media (width >= 96rem) {
       max-width: 96rem !important;
+    }
+    @media (width >= 112rem) {
+      max-width: 112rem !important;
     }
   }
   .-m-4 {
@@ -415,9 +421,6 @@
   }
   .my-8 {
     margin-block: calc(var(--spacing) * 8);
-  }
-  .mt-0 {
-    margin-top: calc(var(--spacing) * 0);
   }
   .mt-0\.5 {
     margin-top: calc(var(--spacing) * 0.5);
@@ -578,9 +581,6 @@
   }
   .min-h-screen {
     min-height: 100vh;
-  }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
@@ -2322,11 +2322,6 @@
       padding-block: calc(var(--spacing) * 8);
     }
   }
-  .md\:py-10 {
-    @media (width >= 48rem) {
-      padding-block: calc(var(--spacing) * 10);
-    }
-  }
   .md\:py-20 {
     @media (width >= 48rem) {
       padding-block: calc(var(--spacing) * 20);
@@ -2418,16 +2413,6 @@
       padding-block: calc(var(--spacing) * 16);
     }
   }
-  .lg\:py-28 {
-    @media (width >= 64rem) {
-      padding-block: calc(var(--spacing) * 28);
-    }
-  }
-  .lg\:py-36 {
-    @media (width >= 64rem) {
-      padding-block: calc(var(--spacing) * 36);
-    }
-  }
   .lg\:pt-0 {
     @media (width >= 64rem) {
       padding-top: calc(var(--spacing) * 0);
@@ -2468,28 +2453,8 @@
       padding-inline: calc(var(--spacing) * 32);
     }
   }
-  .xl\:py-24 {
-    @media (width >= 80rem) {
-      padding-block: calc(var(--spacing) * 24);
-    }
-  }
-  .xl\:py-28 {
-    @media (width >= 80rem) {
-      padding-block: calc(var(--spacing) * 28);
-    }
-  }
-  .xl\:py-32 {
-    @media (width >= 80rem) {
-      padding-block: calc(var(--spacing) * 32);
-    }
-  }
-  .\32 xl\:py-32 {
-    @media (width >= 96rem) {
-      padding-block: calc(var(--spacing) * 32);
-    }
-  }
-  .\@7xl\:py-32 {
-    @container (width >= 80rem) {
+  .\33 xl\:py-32 {
+    @media (width >= 112rem) {
       padding-block: calc(var(--spacing) * 32);
     }
   }

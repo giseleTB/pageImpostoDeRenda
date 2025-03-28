@@ -10,7 +10,9 @@
     --color-profissional-blue-400: #002C68;
     --color-profissional-blue-500: #002353;
     --color-cinza: #333;
+    --breakpoint-3xl: 112rem;
 }
+
 
 
 body {
