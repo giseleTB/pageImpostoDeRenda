@@ -570,6 +570,18 @@
   .h-96 {
     height: calc(var(--spacing) * 96);
   }
+  .h-100 {
+    height: calc(var(--spacing) * 100);
+  }
+  .h-110 {
+    height: calc(var(--spacing) * 110);
+  }
+  .h-112 {
+    height: calc(var(--spacing) * 112);
+  }
+  .h-124 {
+    height: calc(var(--spacing) * 124);
+  }
   .h-full {
     height: 100%;
   }
